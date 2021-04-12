@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/reservation/static/css/main.5b7f6d76.chunk.css",
+    "main.js": "/reservation/static/js/main.190cbb16.chunk.js",
+    "main.js.map": "/reservation/static/js/main.190cbb16.chunk.js.map",
+    "runtime-main.js": "/reservation/static/js/runtime-main.c64b0aec.js",
+    "runtime-main.js.map": "/reservation/static/js/runtime-main.c64b0aec.js.map",
+    "static/js/2.558e64d3.chunk.js": "/reservation/static/js/2.558e64d3.chunk.js",
+    "static/js/2.558e64d3.chunk.js.map": "/reservation/static/js/2.558e64d3.chunk.js.map",
+    "index.html": "/reservation/index.html",
+    "static/css/main.5b7f6d76.chunk.css.map": "/reservation/static/css/main.5b7f6d76.chunk.css.map",
+    "static/js/2.558e64d3.chunk.js.LICENSE.txt": "/reservation/static/js/2.558e64d3.chunk.js.LICENSE.txt",
+    "static/media/home.scss": "/reservation/static/media/defaultBcg.0bb3fe0a.jpeg",
+    "static/media/details-1.c4851740.jpeg": "/reservation/static/media/details-1.c4851740.jpeg",
+    "static/media/details-2.dc89255d.jpeg": "/reservation/static/media/details-2.dc89255d.jpeg",
+    "static/media/details-3.f525a3c8.jpeg": "/reservation/static/media/details-3.f525a3c8.jpeg",
+    "static/media/details-4.f2053654.jpeg": "/reservation/static/media/details-4.f2053654.jpeg",
+    "static/media/rooms.scss": "/reservation/static/media/room-1.05b90599.jpeg",
+    "static/media/room-10.681615dc.jpeg": "/reservation/static/media/room-10.681615dc.jpeg",
+    "static/media/room-11.1605f19e.jpeg": "/reservation/static/media/room-11.1605f19e.jpeg",
+    "static/media/room-12.7dee4920.jpeg": "/reservation/static/media/room-12.7dee4920.jpeg",
+    "static/media/room-2.48c60181.jpeg": "/reservation/static/media/room-2.48c60181.jpeg",
+    "static/media/room-3.92fc5b83.jpeg": "/reservation/static/media/room-3.92fc5b83.jpeg",
+    "static/media/room-4.10d2e64a.jpeg": "/reservation/static/media/room-4.10d2e64a.jpeg",
+    "static/media/room-5.a7c5e078.jpeg": "/reservation/static/media/room-5.a7c5e078.jpeg",
+    "static/media/room-6.3697aea3.jpeg": "/reservation/static/media/room-6.3697aea3.jpeg",
+    "static/media/room-7.d2c011f0.jpeg": "/reservation/static/media/room-7.d2c011f0.jpeg",
+    "static/media/room-8.5b658df9.jpeg": "/reservation/static/media/room-8.5b658df9.jpeg",
+    "static/media/room-9.18aabe9f.jpeg": "/reservation/static/media/room-9.18aabe9f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c64b0aec.js",
+    "static/js/2.558e64d3.chunk.js",
+    "static/css/main.5b7f6d76.chunk.css",
+    "static/js/main.190cbb16.chunk.js"
+  ]
+}
