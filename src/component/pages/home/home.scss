@@ -1,0 +1,105 @@
+.home{
+  background: url('./defaultBcg.jpeg') no-repeat center;
+  background-size: 100% 100vh;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home2{
+  background: rgba(122, 97, 79, 0.616);
+  background-size: 100% 100vh;
+  min-height: auto;
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home3{
+  text-align: center;
+  padding: 2rem;
+  >h1{
+    text-shadow: 0 0 5px goldenrod;
+  }
+  .line{
+    box-shadow: 0 0 5px goldenrod;
+    width: 200px;
+    height: 2px;
+    margin: 0 auto;
+    background: black;
+  }
+  >*{
+    margin: 1.5rem;
+  }
+  >div{
+    display: flex;
+    position: relative;
+    >div{
+      cursor: pointer;
+      box-shadow: 1px 1px 5px black;
+      position: relative;
+        a{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          padding: 5px 10px;
+          border-radius: 5px;
+          transform: translate(-50%,-50%);
+          text-decoration: none;
+          font-size: 1.3rem;
+          font-weight: 600;
+          color: goldenrod;
+          border: 2px solid goldenrod;
+          background: rgba(255, 255, 255, 0.384);
+          letter-spacing: .5rem;
+          display: none;
+          &:hover{
+            box-shadow: black 0 0 10px;
+          }
+        }
+      &:hover{
+        img{
+          opacity: 50%;
+        }
+        p{
+          display: none;
+        }
+        a{
+          display: block;
+        }
+      }
+    }
+    img{
+      width: 100%;
+    }
+    p{
+      position: absolute;
+      top: 1rem;
+      background: black;
+      color: white;
+      max-width: 4rem;
+      font-weight: 600;
+      padding: 5px;
+      border-radius: 0 0 10px 0;
+      span{
+        font-size: 12px;
+        font-weight: 300;
+      }
+    }
+    h2{
+      background: gray;
+      color: rgb(255, 255, 255);
+      padding: 5px;
+    }
+  }
+  @media (max-width: 750px) {
+    div{
+      flex-wrap: wrap;
+    }
+    img{
+      width: 90%;
+    }
+  }
+}

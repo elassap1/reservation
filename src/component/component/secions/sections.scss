@@ -1,0 +1,33 @@
+.section{
+  text-align: center;
+  >*{
+    margin: 15px;
+  }
+  >h1{
+    font-size: 2rem;
+    text-shadow: 0 0 5px goldenrod;
+  }
+  .line{
+    border: 2px solid goldenrod;
+    width: 200px;
+    height: 5px;
+    background: black;
+    margin: 0 auto;
+  }
+  .item{
+    display: flex;
+    flex-wrap: nowrap;
+    @media (max-width: 650px) {
+      flex-wrap: wrap;
+    }
+    >div{
+      margin: 25px;
+      h1{
+        font-size: 1.3rem;
+      }
+      >*{
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
